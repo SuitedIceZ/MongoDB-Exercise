@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 //Create a schema that defines the structure for storing product data
 const productSchema = new mongoose.Schema(
     {
-        product_id: String,
+        product_id: Number,
         product_name: String,
         product_color: String,
         product_price: Number,

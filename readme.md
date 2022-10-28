@@ -1,10 +1,9 @@
 # Hi
 
-## This is my MongoDB inclass-exercise supported by github co pilot
+## This is my MongoDB inclass-exercise supported by github Copilot
 
 # Install
 
-//too lazy to find .gitignore
 
 ## First install node and npm 
 
@@ -22,4 +21,8 @@ in cmd , or somehow by code runner ,nodemon or somethings
 ```
 node sript1.js
 ```
+
+# Assumtion
+
+## - ASSUME product_id and product_price in product collection is Int32 type
 
