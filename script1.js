@@ -1,12 +1,12 @@
 const mongoose = require('mongoose');
-const db = require('./database_connector');
+const db = require('./Database/database_connector');
 
-Customer_collection = require('./customer_collection');
-Order_w_line_collection = require('./order_w_lines_collection');
-Product_collection = require('./product_collection');
+Customer_collection = require('./Database/customer_collection');
+Order_w_line_collection = require('./Database/order_w_lines_collection');
+Product_collection = require('./Database/product_collection');
 
 //Import execute template
-const execute = require('./execute');
+const execute = require('./Utils/execute');
 
 //5.1
 //aggregate show customer count by zipcode
