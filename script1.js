@@ -32,3 +32,13 @@ Order_w_line_collection.aggregate(query54).exec(execute);
 
 query55 = require('./Exercise_query/ex5.5');
 //Order_w_line_collection.aggregate(query55).exec(execute);
+
+//5.6
+//
+query56 = require('./Exercise_query/ex5.6');
+//Order_w_line_collection.aggregate(query56).exec(execute);
+
+//5.7
+//
+query57 = require('./Exercise_query/ex5.7');
+//Order_w_line_collection.aggregate(query57).exec(execute);

@@ -26,3 +26,7 @@ node sript1.js
 
 ## - ASSUME product_id and product_price in product collection is Int32 type
 
+## รายการสั่งซื่อ = order_quantity
+
+## จำนวนออเดอร์ = count(order_w_line)
+
