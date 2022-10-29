@@ -24,9 +24,11 @@ node sript1.js
 
 # Assumtion
 
-## - ASSUME product_id and product_price in product collection is Int32 type
+## - ASSUME product_description is color+name
 
-## รายการสั่งซื่อ = order_quantity
+## - รายการสั่งซื่อ = count(order_w_line)
 
-## จำนวนออเดอร์ = count(order_w_line)
+## - จำนวนออเดอร์ = count(order_w_line)
+
+## - จำนวนสั่งซื้อ = order_quantity
 

@@ -13,7 +13,6 @@ module.exports = [
     {$lookup:{from:"product",localField:"product_id",foreignField:"product_id",as:"product"}},
     {$unwind:"$product"},
     {$project:{_id:0,product_id:"$product.product_id",product_description:{$concat:["$product.product_color"," ","$product.product_name"]}}}
-
 ]
 
     
