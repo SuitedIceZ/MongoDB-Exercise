@@ -26,7 +26,7 @@ query53 = require('./Exercise_query/ex5.3');
 //5.4
 //aggregate show product_id, product_name that has most total quantity in order_w_lines
 query54 = require('./Exercise_query/ex5.4');
-//Order_w_line_collection.aggregate(query54).exec(execute);
+// Order_w_line_collection.aggregate(query54).exec(execute);
 
 //5.5
 
@@ -36,7 +36,7 @@ query55 = require('./Exercise_query/ex5.5');
 //5.6
 //
 query56 = require('./Exercise_query/ex5.6');
-Order_w_line_collection.aggregate(query56).exec(execute);
+// Order_w_line_collection.aggregate(query56).exec(execute);
 
 //5.7
 //
@@ -46,4 +46,21 @@ query57 = require('./Exercise_query/ex5.7');
 //5.8
 //
 query58 = require('./Exercise_query/ex5.8');
-//Order_w_line_collection.aggregate(query58).exec(execute)
+// Order_w_line_collection.aggregate(query58).exec(execute)
+
+//5.9
+//
+query59 = require('./Exercise_query/ex5.9');
+// Order_w_line_collection.aggregate(query59).exec(execute);
+
+//5.10
+//
+query510 = require('./Exercise_query/ex5.10');
+// Product_collection.aggregate(query510).exec(execute);
+
+//5.11
+//
+query511 = require('./Exercise_query/ex5.11');
+Customer_collection.aggregate(query511).exec(execute);
+
+
