@@ -1,7 +1,6 @@
 
 
 module.exports = [
-    {$unwind : "$order_lines"},
     {$group : {_id : '$customer_id',count_order:{$sum:1}}},
     {$sort : {count_order:-1}},
     {$limit : 1},
