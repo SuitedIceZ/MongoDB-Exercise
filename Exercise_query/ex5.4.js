@@ -6,7 +6,8 @@ module.exports = [
     {$group : {_id : "$order_lines.product_id",sum_ordered_quantity:{$sum:"$order_lines.ordered_quantity"}}},
     {$sort : {sum_ordered_quantity:-1}},
     {$limit : 1},
-    {$project : {_id:0,product_id:"$_id",sum_ordered_quantity:1}},
+    {$project : {_id:0,p_id:"$_id",sum_ordered_quantity:1}},
+    {$addFields: {product_id: { $toString: "$p_id" }}},
     {$lookup : {from:"product",localField:"product_id",foreignField:"product_id",as:"product"}},
     {$unwind : "$product"},
     {$project : {_id:0,product_id:"$product.product_id",product_description:{$concat:["$product.product_color"," ","$product.product_name"]}}}
