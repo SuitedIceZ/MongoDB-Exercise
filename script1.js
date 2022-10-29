@@ -61,6 +61,16 @@ query510 = require('./Exercise_query/ex5.10');
 //5.11
 //
 query511 = require('./Exercise_query/ex5.11');
-Customer_collection.aggregate(query511).exec(execute);
+// Customer_collection.aggregate(query511).exec(execute);
+
+//5.12
+
+query512 = require('./Exercise_query/ex5.12');
+// Order_w_line_collection.aggregate(query512).exec(execute);
+
+//5.13
+
+query513 = require('./Exercise_query/ex5.13');
+Order_w_line_collection.aggregate(query513).exec(execute);
 
 
