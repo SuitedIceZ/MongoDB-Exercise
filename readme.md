@@ -24,7 +24,7 @@ node sript1.js
 
 # Assumtion
 
-## - ASSUME product_description is color+name
+## - ASSUME product_finish is color
 
 ## - รายการสั่งซื่อ = count(order_w_line)
 
